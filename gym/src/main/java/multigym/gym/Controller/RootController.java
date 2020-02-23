@@ -13,7 +13,7 @@ public class RootController {
     private static Logger log = LogManager.getLogger(RootController.class);
 
     @GetMapping("/")
-    public String index(Model model, @RequestParam String name) { // viene del formulario
+    public String index(Model model, @RequestParam String name) {
         model.addAttribute("name", name);
         log.info("The user has access to /");
         log.info("The user name is: ", name);
@@ -31,5 +31,11 @@ public class RootController {
     public String guessNumber(Model model) {
         log.info("The user has access to /otro, it returns an empty template");
         return "pruebaPlantilla";
+    }
+
+    @GetMapping("/listaEstablecimientos")
+    public String listaEstablecimientos() {
+        log.info("El usuario ha accedido a la ruta de /listaEstablecimientos");
+        return "listaEstablecimientos";
     }
 }
