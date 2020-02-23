@@ -50,4 +50,10 @@ public class RootController {
         log.info("El usuario ha accedido a la ruta de /actividad");
         return "actividad";
     }
+
+    @GetMapping("/oferta")
+    public String oferta() {
+        log.info("El usuario ha accedido a la ruta de /oferta");
+        return "oferta";
+    }
 }
