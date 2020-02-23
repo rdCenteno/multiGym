@@ -56,4 +56,10 @@ public class RootController {
         log.info("El usuario ha accedido a la ruta de /oferta");
         return "oferta";
     }
+
+    @GetMapping("/perfil")
+    public String perfil() {
+        log.info("El usuario ha accedido a la ruta de /perfil");
+        return "perfil";
+    }
 }
