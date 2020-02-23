@@ -38,4 +38,10 @@ public class RootController {
         log.info("El usuario ha accedido a la ruta de /listaEstablecimientos");
         return "listaEstablecimientos";
     }
+
+    @GetMapping("/listaActividades")
+    public String listaActividades() {
+        log.info("El usuario ha accedido a la ruta de /listaActividades");
+        return "listaActividades";
+    }
 }
