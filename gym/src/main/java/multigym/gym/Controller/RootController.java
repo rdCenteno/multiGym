@@ -68,5 +68,10 @@ public class RootController {
         log.info("El usuario ha accedido a la ruta de /establecimiento");
         return "perfil";
     }
+     @GetMapping("/actividadConcreta")
+    public String actividadConcreta() {
+        log.info("El usuario ha accedido a la ruta de /actividadConcreta");
+        return "actividadConcreta";
+    }
 
 }
