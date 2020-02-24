@@ -63,7 +63,7 @@ public class RootController {
         return "perfil";
     }
     
-        @GetMapping("/establecimiento")
+    @GetMapping("/establecimiento")
     public String establecimiento() {
         log.info("El usuario ha accedido a la ruta de /establecimiento");
         return "perfil";
