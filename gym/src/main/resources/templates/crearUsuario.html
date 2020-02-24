@@ -8,39 +8,38 @@
 <body>
     <div class="contenedor-principal">
         <div class="contenedor-contenido">
-
             <div class="contenedor-main">
                 <div class="main-titulo">
                     <h1>Registrar Nuevo Usuario</h1>
-
-                    <form action="/nuevoUsuario">
-                        <div class="container">
-                          <p>Introduce la información necesaria para crear un nuevo usuario.</p>
-                          <hr>
-                      
-                          <label for="email"><b>Email</b></label>
-                          <input type="text" placeholder="Introduce Email" name="email" required>
-                      
-                          <label for="psw"><b>Password</b></label>
-                          <input type="password" placeholder="Introduce Password" name="psw" required>
-                      
-                          <label for="psw-repeat"><b>Repite la contraseña</b></label>
-                          <input type="password" placeholder="Repite la contraseña" name="psw-repeat" required>
-                          <hr>
-                          <p>Creando una cuenta estas de acuerdo con nuetros <a href="#">Terminos & Condiciones</a>.</p>
-                      
-                          <button type="submit" class="registerbtn">Registro</button>
-                        </div>
-                        
-                        <div class="container signin">
-                          <p>¿Ya tienes una cuenta? <a href="#">Accede</a>.</p>
-                        </div>
-                      </form>
                 </div>
-
             </div>
-
         </div>
+    </div>
+
+    <div class="principal-contenedor">
+        <form action="/nuevoUsuario">
+            <div class="container">
+              <p>Introduce la información necesaria para crear un nuevo usuario.</p>
+              <hr>
+          
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Introduce Email" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Introduce Password" name="psw" required>
+          
+              <label for="psw-repeat"><b>Repite la contraseña</b></label>
+              <input type="password" placeholder="Repite la contraseña" name="psw-repeat" required>
+              <hr>
+              <p>Creando una cuenta estas de acuerdo con nuetros <a href="#">Terminos & Condiciones</a>.</p>
+          
+              <button type="submit" class="registerbtn">Registro</button>
+            </div>
+            
+            <div class="container signin">
+              <p>¿Ya tienes una cuenta? <a href="#">Accede</a>.</p>
+            </div>
+          </form>
     </div>
 </body>
 
