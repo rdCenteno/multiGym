@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Leeme: MultiGym</title>
+	<style type="text/css">
+		.nota { color: gray; }
+	</style>
+</head>
+<body>
+	<h1>Leeme: MultiGym</h1>
+	<h2>Objetivo</h2>
+	<p>Construir una página que facilite la asistencia a actividades deportivas sin necesidad de llevar un entrenamiento programado ni pagar mensualidades
+	para no aprovechar todos los días pagados y acabar sin obtener ningún resultado.</p>
+	<p>
+		Multi-Gym, cansado de pagar matrículas innecesarias en gimnasios. Caer en la monotonía de siempre hacer las mismas actividades,
+		no poder experimentar nuevas actividades deportivas, esta es la solución. A través de este sistema podrás pagar una única cuota mensual
+		y acceder a todas las actividades que ofrecen nuestros distintos colaboradores.Quienes son nuestro colaboradores,
+		todos los establecimientos deportivos de tu ciudad. Este sistema también lo pueden usar particulares para anunciar
+		sus propias actividades, ya que en todas las instalaciones deportivas hay salas que durante el día no se usan,
+		pues el propietario de esta instalación oferta sus recursos no usados para que tu puedas anunciar tu propia actividad.
+  
+	</p>
+	<p>
+		En definitiva, el proyecto esta destinado a facilitar reservas de salas con los datos pertinentes como fecha, localizacion,
+		precio, etc. Además del sistema de gestion de reservas, se incluyen confirmaciones y ratings en varios sentidos, de manera
+		que se le facilita al usuario interactuar con los monitores y éstos con los dueños de los establecimientos. 
+	</p>
+	<p>
+		Soporta los siguientes roles:
+		<ul>
+		<li>
+		El <b>Monitor</b> (usuario: a, clave: a) puede gestionar sus actividades de maneta que se le permite crear una actividad, 
+		enviar su proupuesta a los dueños de los establecimientos y gestionar los participantes de cada actividad que le pertenezca.
+		<li>
+		Un <b>usuario</b> (usuario: a, clave: a) el usuario utiliza su cuenta clasificada según su perfil para participar en las actividades 
+		que le interesen. Puede visualizar su perfil, documentarse sobre actividades y comentar sobre ellas en el foro.
+		</li>
+		El <b>Dueño</b> (usuario: a, clave: a) parecido a un monitor pero con distintas finalidades. El dueño organiza sus establecimientos para ofertarlos 
+		y permitir que los monitos le envíen propuestas para alquilar su local y ejercer su actividad. El dueño gestiona, oferta y actualiza sus instalaciones.
+		<li>
+		</ul>
+	</p>
+	
+	<h2>Vistas</h2>
+		<ul>
+		<li><a href="http://localhost:8080/establecimiento">Establecimiento</a> - Vista para ver los establecimientos ofertados, lo realiza el monitor. 
+		<li><a href="http://localhost:8080/actividad">Actividad</a> - Vista en la que se pueden observar todas las actividades disponibles (por usuarios)
+		<li><a href="http://localhost:8080/listaActividades">Lista de actividades</a> - Pagina propia del usuario en la que puede ver sus actividades.
+		<li><a href="http://localhost:8080/listaEstablecimientos">lista de establecimiento</a> - Vista para ver la lista de los establecimientos que se ofertan.
+		<li><a href="http://localhost:8080/oferta">	Ofertas</a> - Vista para dueños en la que pueden ver las ofertas que les llegan por sus establecimientos.
+		<li><a href="http://localhost:8080/perfil">Perfil usuario</a> - Vista para que usuario pueda ver su perfil, el contenido de este se detalla más adelante.
+		<li><a href="http://localhost:8080/actividadConcreta">Actividad X</a> - Vista para monitor. Se observa una actividad concreta y todos los participantes apuntados.
+		</ul>
+</body>
+</html>
