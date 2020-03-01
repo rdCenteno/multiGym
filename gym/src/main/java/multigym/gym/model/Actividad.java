@@ -1,0 +1,1 @@
+package multigym.gym.model;
