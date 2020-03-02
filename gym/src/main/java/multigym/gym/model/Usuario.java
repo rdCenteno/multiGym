@@ -36,7 +36,7 @@ public class Usuario {
 	public void setSalas(final List<Sala> sala) {
 		this.salas = sala;
     }
-    @ManyToMany(targetEntity=Mensajes.class, mappedBy="mensaje")
+    @ManyToMany(targetEntity=Mensajes.class, mappedBy="mensajes")
     public List<Mensajes> getMensajes() {
 		return mensajes;
 	}
