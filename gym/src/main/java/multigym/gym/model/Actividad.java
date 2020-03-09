@@ -39,7 +39,23 @@ public class userModel {
 	@Override
 	public String toString() {
 		return "Actividad #" + id;
-    }	
+    }
+
+	public String getMonitor() {
+		return monitor;
+	}
+
+	public void setMonitor(String monitor) {
+		this.monitor = monitor;
+	}
+
+	public Sala getSala() {
+		return sala;
+	}
+
+	public void setSala(Sala sala) {
+		this.sala = sala;
+	}
     
 
 }
