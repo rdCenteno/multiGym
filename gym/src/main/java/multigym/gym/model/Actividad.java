@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
 @Entity
-public class userModel {
+public class Actividad {
 	
 	private long id;
     private String monitor;
